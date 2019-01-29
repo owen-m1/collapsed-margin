@@ -10,6 +10,10 @@
     "CSS",
     "between"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/owen-m1/collapsed-margin"
+  },
   "files": ["main.js"],
   "author": "owenm",
   "license": "MIT"
