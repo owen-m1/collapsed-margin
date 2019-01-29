@@ -1,5 +1,5 @@
 # collapsed-margin
-Calculate the hypothetical margin between two elements, which is automatically "collapsed" by CSS.
+Calculate the hypothetical vertical margin between two elements, which is automatically "collapsed" by CSS.
 
 ### Installation:
 ```

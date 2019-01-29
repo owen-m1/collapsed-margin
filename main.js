@@ -14,9 +14,9 @@
 	// https://www.sitepoint.com/collapsing-margins/
 
 	/**
-	 * Returns the hypothetical margin between two elements, which will automatically be "collapsed" by CSS
-	 * @param  {HTMLElement} el1       The first element, on the left
-	 * @param  {HTMLElement} el2       The second element, on the right
+	 * Returns the hypothetical vertical margin between two elements, which will automatically be "collapsed" by CSS
+	 * @param  {HTMLElement} el1       The first element, on the top
+	 * @param  {HTMLElement} el2       The second element, on the bottom
 	 * @return {Number}                The collapsed margin between the two elements
 	 */
 	function collapsedMargin(el1, el2) {

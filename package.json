@@ -1,7 +1,7 @@
 {
   "name": "collapsed-margin",
   "version": "1.0.0",
-  "description": "Calculate the hypothetical margin between two elements, which is automatically \"collapsed\" by CSS.",
+  "description": "Calculate the hypothetical vertical margin between two elements, which is automatically \"collapsed\" by CSS.",
   "main": "main.js",
   "keywords": [
     "margin",
