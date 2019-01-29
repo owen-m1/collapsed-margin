@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>collapsed-margin</title>
+</head>
+<body>
+
+<h1>Positive, first larger</h1>
+<div id="test1">
+	<div style="margin-bottom: 25px" class="square first"></div><!--
+ --><div style="margin-top: 20px" class="square second"></div>
+</div>
+
+<h1>Positive, second larger</h1>
+<div id="test2">
+	<div style="margin-bottom: 20px" class="square first"></div><!--
+ --><div style="margin-top: 25px" class="square second"></div>
+</div>
+
+<h1>Positive, equal</h1>
+<div id="test3">
+	<div style="margin-bottom: 20px" class="square first"></div><!--
+ --><div style="margin-top: 20px" class="square second"></div>
+</div>
+
+<h1>Negative, first larger</h1>
+<div id="test4">
+	<div style="margin-bottom: -25px" class="square first"></div><!--
+ --><div style="margin-top: -20px" class="square second"></div>
+</div>
+
+<h1>Negative, second larger</h1>
+<div id="test5">
+	<div style="margin-bottom: -20px" class="square first"></div><!--
+ --><div style="margin-top: -25px" class="square second"></div>
+</div>
+
+<h1>Negative, equal</h1>
+<div id="test6">
+	<div style="margin-bottom: -20px" class="square first"></div><!--
+ --><div style="margin-top: -20px" class="square second"></div>
+</div>
+
+
+<style>
+	.square {
+		height: 200px;
+	}
+
+	.first {
+		background-color: black;
+	}
+
+	.second {
+		background-color: red;
+	}
+</style>
+<script src="../main.js"></script>
+<script src="./test.js"></script>
+
+</body>
+</html>
